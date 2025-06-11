@@ -44,3 +44,7 @@ Welcome to **Little Library**, a simple web application that lets users create, 
 - Save books to localStorage to persist after page refresh
 - Use <dialog> modal for cleaner form UX
 - Responsive mobile layout improvements
+
+---
+## 🙏 Credits
+Project inspired and guided by The Odin Project.
