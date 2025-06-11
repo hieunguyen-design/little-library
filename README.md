@@ -6,8 +6,7 @@ Welcome to **Little Library**, a simple web application that lets users create, 
 
 ## 🔗 Live Preview
 
-👉 [View the Live Demo](https://yourusername.github.io/little-library/)  
-*(Replace this link with your actual GitHub Pages link if deployed)*
+👉 [View the Live Demo]([https://yourusername.github.io/little-library/](https://hieunguyen-design.github.io/little-library/))  
 
 ---
 
