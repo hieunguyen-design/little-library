@@ -16,6 +16,14 @@ function Book(title, author, numberOfPage, beenRead) {
   this.beenRead = beenRead;
   this.id = crypto.randomUUID();
 }
+function Book(title, author, numberOfPage, beenRead, id) {
+  this.title = title;
+  this.author = author;
+  this.numberOfPage = numberOfPage;
+  this.beenRead = beenRead;
+  this.id = id;
+}
+
 /**
  * Take params, create a book then store it in the array
  * */
@@ -55,6 +63,14 @@ function showBookList() {
     });
     removeCell.appendChild(removeButton);
 
+    //Toogle read status
+    const toogleButton = document.createElement("button");
+    toogleButton.textContent = "Change";
+    toogleButton.style.marginLeft = "15px";
+    beenReadCell.appendChild(toogleButton);
+    toogleButton.addEventListener("click", () => {
+      toogleRead(book);
+    });
     newBook.appendChild(TitleCell);
     newBook.appendChild(AuthorCell);
     newBook.appendChild(NumberOfPageCell);
@@ -82,6 +98,34 @@ function removeBook(bookId) {
   const index = myLibrary.findIndex((book) => book.id === bookId);
   if (index !== -1) {
     myLibrary.splice(index, 1);
+    showBookList();
+  }
+}
+
+/**
+ * Toogle read status
+ */
+function toogleRead(currentBook) {
+  let readStatus = currentBook.beenRead;
+  // readStatus = readStatus == "Yes" ? "No" : "Yes";
+  if (readStatus === "Yes") {
+    console.log(readStatus);
+    readStatus = "No";
+  } else readStatus = "Yes";
+  console.log(readStatus);
+  const updatedBookPrototype = new Book(
+    currentBook.title,
+    currentBook.author,
+    currentBook.numberOfPage,
+    readStatus,
+    currentBook.id
+  );
+  console.log(updatedBookPrototype);
+  const index = myLibrary.findIndex(
+    (book) => book.id === updatedBookPrototype.id
+  );
+  if (index !== -1) {
+    myLibrary[index] = updatedBookPrototype;
     showBookList();
   }
 }
