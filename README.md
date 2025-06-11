@@ -6,7 +6,7 @@ Welcome to **Little Library**, a simple web application that lets users create, 
 
 ## 🔗 Live Preview
 
-👉 [View the Live Demo](https://hieunguyen-design.github.io/little-library/)  
+👉 [View the Live Demo](https://hieunguyen-design.github.io/little-library/)
 
 ---
 
@@ -28,7 +28,9 @@ Welcome to **Little Library**, a simple web application that lets users create, 
 - JavaScript (DOM manipulation)
 
 ---
+
 ## 🧠 Concepts Practiced
+
 - JavaScript object constructors & arrays
 - DOM traversal & manipulation
 - Event listeners and form handling
@@ -37,13 +39,16 @@ Welcome to **Little Library**, a simple web application that lets users create, 
 - Clean separation between data and display logic
 
 ---
+
 ## 🚧 Future Improvements
-- Toggle read/unread status with a button
+
 - Edit book info in-place
 - Save books to localStorage to persist after page refresh
 - Use <dialog> modal for cleaner form UX
 - Responsive mobile layout improvements
 
 ---
+
 ## 🙏 Credits
+
 Project inspired and guided by The Odin Project.
