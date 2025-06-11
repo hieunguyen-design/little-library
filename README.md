@@ -29,10 +29,18 @@ Welcome to **Little Library**, a simple web application that lets users create, 
 - JavaScript (DOM manipulation)
 
 ---
+## 🧠 Concepts Practiced
+- JavaScript object constructors & arrays
+- DOM traversal & manipulation
+- Event listeners and form handling
+- Using radio buttons and retrieving checked values
+- Adding and removing DOM elements dynamically
+- Clean separation between data and display logic
 
-## 🚀 Getting Started
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/yourusername/little-library.git
-cd little-library
+---
+##🚧 Future Improvements
+- Toggle read/unread status with a button
+- Edit book info in-place
+- Save books to localStorage to persist after page refresh
+- Use <dialog> modal for cleaner form UX
+- Responsive mobile layout improvements
