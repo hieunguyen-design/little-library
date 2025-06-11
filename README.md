@@ -38,7 +38,7 @@ Welcome to **Little Library**, a simple web application that lets users create, 
 - Clean separation between data and display logic
 
 ---
-##🚧 Future Improvements
+## 🚧 Future Improvements
 - Toggle read/unread status with a button
 - Edit book info in-place
 - Save books to localStorage to persist after page refresh
